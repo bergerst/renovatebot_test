@@ -6,11 +6,6 @@
     {
       "matchDatasources": ["maven"],
       "allowedVersions": "!/redhat|composite|groovyless|jboss|atlassian|preview/"
-    },
-    {
-      "matchDatasources": ["maven", "sbt-package"],
-      "matchPackagePrefixes": ["commons-"],
-      "allowedVersions": "!/^200\\d{5}(\\.\\d+)?/"
     }
   ]
 }
