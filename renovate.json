@@ -8,7 +8,7 @@
       "allowedVersions": "!/redhat|composite|groovyless|jboss|atlassian|preview/"
     },
     {
-      "matchDatasources": ["maven"],
+      "matchDatasources": ["maven"], 
       "matchPackagePrefixes": ["commons"],
       "allowedVersions": "!/^200/"
     }
