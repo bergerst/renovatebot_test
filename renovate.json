@@ -7,5 +7,8 @@
       "matchDatasources": ["maven"],
       "allowedVersions": "!/redhat|composite|groovyless|jboss|atlassian|preview/"
     }
-  ]
+  ],
+  "registryAliases": {
+    "dockerhub.myregistry.com": "docker.io"
+  }
 }
