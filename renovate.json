@@ -9,6 +9,6 @@
     }
   ],
   "registryAliases": {
-    "dockerhub.myregistry.com": "docker.io"
+    "dockerhub.myregistry.com": "https://docker.io"
   }
 }
