@@ -5,10 +5,8 @@
   "packageRules": [
     {
       "matchDatasources": ["maven"],
-      "allowedVersions": "!/redhat|composite|groovyless|jboss|atlassian|preview/"
+      "matchPackageNames": ["org.graalvm.js:js"],
+      "allowedVersions": "/1.0.0-rc\\d+/"
     }
-  ],
-  "registryAliases": {
-    "dockerhub.myregistry.com": "https://docker.io"
-  }
+  ]
 }
