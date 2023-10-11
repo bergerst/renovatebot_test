@@ -4,6 +4,9 @@
   <groupId>com.mycompany.app</groupId>
   <artifactId>my-app</artifactId>
   <version>1</version>
+  <properties>
+    <docker-base-image-jre11>alpine:3.17.4</docker-base-image-jre11>
+  </properties>
   <dependencies>
     <dependency>
       <groupId>org.graalvm.js</groupId>

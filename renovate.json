@@ -8,5 +8,18 @@
       "matchPackageNames": ["org.graalvm.js:js"],
       "allowedVersions": "/1.0.0-rc\\d+/"
     }
+  ],
+  "regexManagers": [
+    {
+      "description": "maven-jib",
+      "fileMatch": [
+        "(^|/)pom.xml$"
+      ],
+      "matchStringsStrategy": "any",
+      "matchStrings": [
+        "<docker-base-image-jre11>\\s*(?<depName>.*?):(?<currentValue>.*?)@?(?<currentDigest>(sha256:[a-f0-9]+)?)\\s*<\/docker-base-image-jre11>"
+      ],
+      "datasourceTemplate": "docker"
+    }
   ]
 }
