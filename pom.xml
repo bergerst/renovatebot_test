@@ -11,7 +11,7 @@
     <dependency>
       <groupId>org.graalvm.js</groupId>
       <artifactId>js</artifactId>
-      <version>1.0.0-rc8</version>
+      <version>1.0.0-rc16</version>
     </dependency>
   </dependencies>
 </project>
