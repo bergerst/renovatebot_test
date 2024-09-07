@@ -5,7 +5,7 @@
   <artifactId>my-app</artifactId>
   <version>1</version>
   <properties>
-    <docker-base-image-jre11>alpine:3.17.4</docker-base-image-jre11>
+    <docker-base-image-jre11>alpine:3.20.3</docker-base-image-jre11>
   </properties>
   <dependencies>
     <dependency>
