@@ -12,6 +12,22 @@
       "matchDatasources": ["maven"],
       "matchPackageNames": ["org.graalvm.js:js"],
       "allowedVersions": "/1.0.0-rc\\d+/"
+    },
+    {
+      "matchManagers": ["regex"],
+      "matchPackageNames": ["graalvm/graalvm-ce-builds"],
+      "extractVersion": "regex:^jdk-(?<version>.*)$"
+    }
+  ],
+  "customManagers": [
+    {
+      "customType": "regex",
+      "fileMatch": ["foo.test"],
+      "matchStrings": [
+        "GRAALVM_VERSION: \"(?<currentValue>.+?)\""
+      ],
+      "datasourceTemplate": "github-releases",
+      "depNameTemplate": "graalvm/graalvm-ce-builds"
     }
   ],
   "regexManagers": [
