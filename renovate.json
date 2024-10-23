@@ -16,7 +16,7 @@
     {
       "matchManagers": ["regex"],
       "matchPackageNames": ["graalvm/graalvm-ce-builds"],
-      "extractVersion": "regex:^jdk-(?<version>.*)$"
+      "extractVersion": "^jdk-(?<version>.*)$"
     }
   ],
   "customManagers": [
